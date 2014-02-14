@@ -42,7 +42,17 @@
        <attr name="backgroundStacked" format="reference" />
        
        <attr name="icon" format="reference" />
-       <attr name="displayOptions" format="reference" />
+       <attr name="displayOptions">
+            <flag name="none" value="0" />
+            <flag name="useLogo" value="0x1" />
+            <flag name="showHome" value="0x2" />
+            <flag name="homeAsUp" value="0x4" />
+            <flag name="showTitle" value="0x8" />
+            <flag name="showCustom" value="0x10" />
+            <flag name="disableHome" value="0x20" />
+        </attr>
+       
+       
        <attr name="titleTextStyle" format="reference" />
        <attr name="logo" format="reference" />
     </declare-styleable>

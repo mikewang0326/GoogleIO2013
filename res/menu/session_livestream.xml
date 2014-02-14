@@ -21,19 +21,19 @@
           android:title="@string/description_presentation"
           android:orderInCategory="1"
           android:visible="false"
-          iosched:showAsAction="ifRoom" />
+          android:showAsAction="ifRoom" />
 
     <item android:id="@+id/menu_captions"
           android:icon="@drawable/ic_action_captions"
           android:title="@string/description_captions"
           android:orderInCategory="1"
           android:visible="false"
-          iosched:showAsAction="ifRoom" />
+          android:showAsAction="ifRoom" />
 
     <item android:id="@+id/menu_share"
         android:icon="@drawable/ic_action_share"
         android:title="@string/description_share"
         android:orderInCategory="1"
-        iosched:showAsAction="ifRoom" />
+        android:showAsAction="ifRoom" />
 
 </menu>

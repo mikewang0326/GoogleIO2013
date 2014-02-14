@@ -19,5 +19,5 @@
         android:icon="@drawable/ic_action_compose"
         android:title="@string/description_compose"
         android:orderInCategory="0"
-        iosched:showAsAction="ifRoom" />
+        android:showAsAction="ifRoom" />
 </menu>

@@ -19,5 +19,5 @@
         android:icon="@drawable/ic_action_map"
         android:title="@string/description_map"
         android:orderInCategory="1"
-        iosched::showAsAction="ifRoom" />
+        android:showAsAction="ifRoom" />
 </menu>

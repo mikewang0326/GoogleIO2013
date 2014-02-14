@@ -20,32 +20,32 @@
         android:icon="@drawable/ic_action_search"
         android:title="@string/description_search"
         android:orderInCategory="0"
-        iosched:actionViewClass="android.widget.SearchView"
-        iosched:showAsAction="ifRoom|collapseActionView" />
+        android:actionViewClass="android.widget.SearchView"
+        android:showAsAction="ifRoom|collapseActionView" />
 
     <item android:id="@+id/menu_refresh"
         android:icon="@drawable/ic_action_refresh"
         android:title="@string/description_refresh"
         android:orderInCategory="1"
-        iosched:showAsAction="ifRoom" />
+        android:showAsAction="ifRoom" />
 
     <item android:id="@+id/menu_settings"
         android:title="@string/description_settings"
         android:orderInCategory="97"
-        iosched:showAsAction="never" />
+        android:showAsAction="never" />
 
     <item android:id="@+id/menu_wifi"
         android:title="@string/description_configure_wifi"
         android:orderInCategory="98"
-        iosched:showAsAction="never" />
+        android:showAsAction="never" />
 
     <item android:id="@+id/menu_about"
         android:title="@string/description_about"
         android:orderInCategory="99"
-        iosched:showAsAction="never" />
+        android:showAsAction="never" />
 
     <item android:id="@+id/menu_sign_out"
         android:title="@string/description_sign_out"
         android:orderInCategory="100"
-        iosched:showAsAction="never" />
+        android:showAsAction="never" />
 </menu>

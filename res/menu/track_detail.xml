@@ -19,5 +19,5 @@
         android:icon="@drawable/ic_action_social_stream"
         android:title="@string/description_social_stream"
         android:orderInCategory="1"
-        iosched:showAsAction="ifRoom" />
+        android:showAsAction="ifRoom" />
 </menu>
