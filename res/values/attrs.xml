@@ -11,8 +11,8 @@
   distributed under the License is distributed on an "AS IS" BASIS,
   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
   See the License for the specific language governing permissions and
-  limitations under the License.
-  -->
+  limitations under the License.
+-->
 <resources>
 
     <declare-styleable name="BaseTheme">
@@ -22,15 +22,31 @@
         <attr name="emptyText" format="reference" />
 
         <!-- backward-compatibility -->
-        <!--<attr name="buttonBarStyle" format="reference" />-->
-        <!--<attr name="buttonBarButtonStyle" format="reference" />-->
+        <attr name="buttonBarStyle" format="reference" />
+        <attr name="buttonBarButtonStyle" format="reference" />
         <!-- provided by ActionBarSherlock -->
-        <!--<attr name="indeterminateProgressStyle" format="reference" />-->
-        <!--<attr name="listPreferredItemPaddingLeft" format="reference" />-->
-        <!--<attr name="listPreferredItemPaddingRight" format="reference" />-->
-        <!--<attr name="listPreferredItemHeightSmall" format="reference" />-->
-    </declare-styleable>
+        <attr name="indeterminateProgressStyle" format="reference" />
+        <attr name="listPreferredItemPaddingLeft" format="reference" />
+        <attr name="listPreferredItemPaddingRight" format="reference" />
+        <attr name="listPreferredItemHeightSmall" format="reference" />
 
+        <!-- add more attrs -->
+        <attr name="actionBarStyle" format="reference" />
+        <attr name="actionBarTabStyle" format="reference" />
+        <attr name="actionBarTabTextStyle" format="reference" />
+    </declare-styleable>
+    
+    <declare-styleable name="ActionBar">
+       <attr name="background" format="reference" />
+       <attr name="backgroundSplit" format="reference" />
+       <attr name="backgroundStacked" format="reference" />
+       
+       <attr name="icon" format="reference" />
+       <attr name="displayOptions" format="reference" />
+       <attr name="titleTextStyle" format="reference" />
+       <attr name="logo" format="reference" />
+    </declare-styleable>
+    
     <declare-styleable name="BezelImageView">
         <attr name="maskDrawable" format="reference" />
         <attr name="borderDrawable" format="reference" />
