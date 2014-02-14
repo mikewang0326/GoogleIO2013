@@ -14,10 +14,10 @@
   limitations under the License.
   -->
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-      xmlns:iosched="http://schemas.android.com/apk/res-auto">
+      xmlns:iosched="http://schemas.android.com/apk/res/com.google.android.apps.iosched">
     <item android:id="@+id/menu_map"
         android:icon="@drawable/ic_action_map"
         android:title="@string/description_map"
         android:orderInCategory="1"
-        iosched:showAsAction="ifRoom" />
+        iosched::showAsAction="ifRoom" />
 </menu>
