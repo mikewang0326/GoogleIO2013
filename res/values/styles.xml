@@ -20,6 +20,9 @@
 
     <!-- Disable RTL support on older devices -->
     <!-- Prevents crash on certain devices to namespace conflict -->
+     <style name="Theme.AppCompat.Light" parent="">
+</style>
+    
     <style name="FrameworkRoot.Base" parent="Theme.AppCompat.Light">
     </style>
 
@@ -33,6 +36,22 @@
         <item name="listPreferredItemPaddingLeft">@dimen/compat_list_preferred_item_padding_left</item>
         <item name="listPreferredItemPaddingRight">@dimen/compat_list_preferred_item_padding_right</item>
         <item name="listPreferredItemHeightSmall">@dimen/compat_list_preferred_item_height_small</item>
+    </style>
+    
+    
+     <style name="Widget.AppCompat.Light.ActionBar" parent="">
+</style>
+    
+      <style name="TextAppearance.AppCompat.Widget.ActionBar.Title" parent="">
+    </style>
+    
+       <style name="Widget.AppCompat.Base.ActionBar.TabBar" parent="">
+    </style>
+    
+        <style name="Widget.AppCompat.ActionBar.TabText" parent="">
+    </style>
+    
+         <style name="Widget.AppCompat.ActionBar.TabView" parent="">
     </style>
 
     <style name="FrameworkRoot.ActionBar" parent="Widget.AppCompat.Light.ActionBar" />
